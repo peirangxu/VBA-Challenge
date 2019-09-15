@@ -3,7 +3,7 @@ Sub stock()
 
 Dim WS As Worksheet
 
-'Loop throught all worksheets
+'Loop throught all worksheets.
 For Each WS In ActiveWorkbook.Worksheets
     WS.Activate
 LastRow = WS.Cells(Rows.Count, 1).End(xlUp).Row
